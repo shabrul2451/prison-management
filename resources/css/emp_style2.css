@@ -1,0 +1,352 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+  
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#nev1{
+	width: 100%;
+	height: 70px;
+	background: rgb(13, 47, 47);
+	text-decoration: none;
+	margin: 0;
+	
+	
+}
+	
+#nev1 h2{
+	float: left;
+	color: white;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+#nev1 h2 a{
+	text-decoration: none;
+	color: white;
+	
+}
+#nev1 ul{
+	line-height: 20px;
+	float: right;
+	margin-right: 25px;
+	
+}
+
+#nev1 ul li a{
+	padding: 25px;
+	text-decoration: none;
+	color: aquamarine;
+	display: inline-block;
+	
+} 
+#nev1 ul li{
+	display: inline-block;
+	list-style-type: none;
+	
+}
+
+
+
+
+#nev1 ul li:hover{
+	background: rgb(47, 121, 121);
+
+	
+}
+#active {
+	background: rgb(47, 121, 121);
+}
+#ba; h2{
+	float: right;
+	margin-left: 500px;
+}
+
+#maincont{
+	width: 100%;
+	background: rgb(255, 255, 255);
+	text-decoration: none;
+}
+#usrform_email {
+	
+	float:right;
+	padding: 10px 10px;
+	margin-left: 50px;
+	margin-right:550px;
+	margin-top: 20px;
+	width: 500px;
+	text-align: left;
+	color: #757575;
+	border: 2px solid;
+    border-radius: 5px;
+	box-shadow: 5px 5px 1px 1px;
+}
+#task_name{
+    border: 1px solid black;
+    border-collapse: collapse;
+	
+	float:right;
+	margin-right:50px;
+}
+#task_name a {
+    padding-left: 450px;
+    padding-right: 450px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#usrform_text{
+	
+	float:right;
+	padding: 10px 10px;
+	margin-left: 50px;
+	margin-right:550px;
+	margin-top: 20px;
+	width: 500px;
+	height: 250px;
+	max-height:250px;
+	max-width:500px;
+	text-align: left;
+	color: #757575;
+	border: 2px solid;
+    border-radius: 5px;
+	box-shadow: 5px 5px 1px 1px;
+	
+}
+
+
+#span{
+	float: right;
+	
+}
+#span ul{
+	text-decoration: none;
+	
+}
+#span ul li{
+	text-decoration: none;
+	list-style-type: none;
+}
+#btn_send{
+	
+	background-color: #26C6DA;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	
+	border-radius:5px;
+	margin-right:550px;
+	float:right;
+	color: #fff;
+	margin-top: 10px;
+	
+	
+}
+#btn_send:hover{
+	box-shadow: 5px 5px 1px 1px #17484e;
+}
+
+#btn_start{
+	
+	background-color: #26C6DA;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	
+	border-radius:5px;
+	float:left;
+	
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 100px;
+	
+}
+#btn_start:hover{
+	box-shadow: 5px 5px 1px 1px #17484e;
+}
+
+#btn_pause{
+	
+	background-color: #26C6DA;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	
+	border-radius:5px;
+	
+	float:left;
+	color: #fff;
+	margin-top: 30px;
+	margin-left:60px;
+	
+	
+}
+#btn_pause:hover{
+	box-shadow: 5px 5px 1px 1px #17484e;
+}
+
+#btn_complete{
+	
+	background-color: #26C6DA;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	
+	border-radius:5px;
+	
+	float:right;
+	color: #fff;
+	margin-top: 30px;
+	display: inline;
+	margin-right: 600px;
+	
+}
+#btn_complete:hover{
+	box-shadow: 5px 5px 1px 1px #17484e;
+}
+
+#sidebar{
+	margin: 0px;
+	width: 250px;
+	height: 470px;
+	background-color: #253d46;
+}
+
+#list_bar{
+	
+}
+#list_bar ul{
+	
+	text-align:center;
+	
+	
+}
+#list_bar ul li{
+	
+	padding: 15Px;
+	
+	display: block;
+	list-style-type: none;
+}
+#list_bar ul li a{
+	margin-top:25px;
+	color:white;
+	text-decoration:none;
+}
+#list_bar ul li:hover{
+	
+	background: #4a6e7b;
+}
+
+
+
+#optionbar{
+	width: 250px;
+	height: 400px;
+	background-color: #253d46;
+	margin-left: 25px;
+}
+
+#optionbar select{
+	padding: 5px 8px;
+    width: 200px;
+    border: none;
+    box-shadow: 5px 5px 1px 1px;
+    background-image: none;
+    appearance: none;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#footer1{
+	width: 100%;
+	height: 100px;
+	background: #444040;
+	margin-top:460px;
+	line-height:100px;
+}
+
+#footer1 h2{
+	color: white;
+	float: right;
+	margin-right: 25px;
+}
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background: #444040;
+	line-height: 100px;
+	
+}
+#extra1 ul{
+	float: left;
+}
+
+#extra1 ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 36px;
+	margin-left: 10px;
+	
+}
+
+#extra1 ul li a{
+	text-decoration: none;
+	color : white;
+	padding: 20px;
+	
+   
+	
+}
+#footer h2{
+	
+	color: white;
+	float: right;
+	margin-right: 25px;
+	
+	
+}
+
+#extra ul{
+	float: left;
+}
+
+#extra ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 36px;
+	margin-left: 10px;
+	
+}
+
+#extra ul li a{
+	text-decoration: none;
+	color : white;
+	padding: 20px;
+	
+	
+   
+	
+}
+
+#icon:hover{
+	color: blue;
+}
+#icon1:hover{
+	color: black;
+}
+#icon2:hover{
+	color: red;
+}
+
+
+
+

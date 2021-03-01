@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html >
+   <head>
+      <meta charset="UTF-8">
+      <title>Main</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+      <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="resources/css/task_style.css">
+      <link rel="stylesheet" href="resources/css/login_style.css">
+      <link rel="stylesheet" href="resources/css/boostrap.css">
+      <style>
+         .logo{margin-left: 10px;
+         margin-right: 10px;
+         margin-top: 10px;
+         margin-bottom: : 10px;
+         float: left;}
+
+         #search_bar{
+            
+         }
+      </style>
+   </head>
+   <body>
+      <div class="header">
+         <div class="nav">
+            <div class="lining">
+               <ul class="navUl">
+                  <img class="logo" src="resources/img/logo2.png" width="100" alt="image" height="70">
+                  <li class="navLi"><a href="Login.html"> LogOut</a></li>
+                  <li class="navLi"><a href="addOfficer.html"> Add Officer</a></li>
+                  <li class="navLi"><a href="AccountInfo.html"> Employee Info</a></li>
+                  <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                               <input type="text" class="form-control" placeholder="Search" id="search_bar"/>
+                        </div>
+                            
+                  </form>
+ 
+  
+
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="cont_centrar">
+         <table class="responstable">
+            <th>Id</th>
+            <th>Email</th>
+            <th>Password</th>
+            <?php
+               foreach($result_array as $row) { ?>
+               <tr>
+                  <td><?=$row["Id"]?></td>
+                  <td><?=$row["Email"]?></td>
+                  <td><?=$row["Password"]?></td>               
+               </tr>
+               <?php }
+            ?>                
+            
+         </table>
+         <script src='http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js'></script>
+      </div>
+      <script src="js/index.js"></script>
+   </body>
+</html>

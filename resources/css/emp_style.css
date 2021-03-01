@@ -1,0 +1,189 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+  
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#nev1{
+	width: 100%;
+	height: 70px;
+	background: rgb(13, 47, 47);
+	text-decoration: none;
+	
+	
+}
+	
+#nev1 h2{
+	float: left;
+	color: white;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+#nev1 h2 a{
+	text-decoration: none;
+	color: white;
+	
+}
+#nev1 ul{
+	line-height: 20px;
+	float: right;
+	margin-right: 25px;
+	
+}
+
+#nev1 ul li a{
+	padding: 25px;
+	text-decoration: none;
+	color: aquamarine;
+	display: inline-block;
+	
+} 
+#nev1 ul li{
+	display: inline-block;
+	list-style-type: none;
+	
+}
+
+
+
+
+#nev1 ul li:hover{
+	background: rgb(47, 121, 121);
+
+	
+}
+#active {
+	background: rgb(47, 121, 121);
+}
+
+
+.maincont{
+	width: 80%;
+	height: 300px;
+	background: rgb(255, 255, 255);
+	text-decoration: none;
+	margin-bottom: 50px;
+
+	
+}
+
+
+
+#sidebar{
+	width: 250px;
+	height: 600px;
+	background-color: #253d46;
+}
+
+
+#optionbarWHY{
+	width: 750px;
+	height: 6s70px;
+	background-color: #253d46;
+	margin-left: 25px;
+	margin-bottom:150px;
+}
+
+#optionbar{
+	width: 350px;
+	height: 200px;
+	background-color: #253d46;
+	margin-left: 450px;
+	margin-bottom:150px;
+}
+
+#optionbar select{
+	padding: 5px 8px;
+    width: 200px;
+    border: none;
+    box-shadow: 5px 5px 1px 1px;
+    background-image: none;
+    appearance: none;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.ki{
+	width: 350px;
+	height: 55px;
+	background-color: #253d46;
+	margin-left: 450px;
+	margin-bottom:5px;
+	
+}
+.kita{
+	width: 350px;
+	height: 45px;
+	background-color: #253d46;
+	margin-left: 0px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background: #444040;
+	line-height: 100px;
+	
+}
+#footerWHY{
+	width: 100%;
+	
+	margin-bottom:10px;
+	margin-top:20px;
+	
+}
+
+#footer h2{
+	
+	color: white;
+	float: right;
+	margin-right: 25px;
+	
+	
+}
+
+#extra ul{
+	float: left;
+}
+
+#extra ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 36px;
+	margin-left: 10px;
+	
+}
+
+#extra ul li a{
+	text-decoration: none;
+	color : white;
+	padding: 20px;
+	
+   
+	
+}
+
+#icon:hover{
+	color: blue;
+}
+#icon1:hover{
+	color: black;
+}
+#icon2:hover{
+	color: red;
+}
+
+
+
+
